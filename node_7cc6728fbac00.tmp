@@ -1,0 +1,11 @@
+const express = require('express');
+const server = express();
+
+server.get('/', function() {
+    
+})
+
+server.listen(3000)
+
+console.log('Aspas "Duplas" ')
+console.log("Aspas 'Simples'")
